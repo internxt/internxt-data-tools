@@ -17,7 +17,7 @@ setuptools.setup(
     },
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: GNU AFFERO GENERAL :: PUBLIC LICENSE",
+        "License :: OSI Approved :: GNU Affero General Public License v3.0 or later (AGPL-3.0-or-later)",
         "Operating System :: OS Independent",
     ],
     package_dir={"": "src"},
