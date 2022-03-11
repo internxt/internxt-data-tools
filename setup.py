@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="JoanMora",
+    name="inxt-data-loaders",
     version="0.0.1",
     author="Joan Mora",
     author_email="joanmoragrau@gmail.com",
