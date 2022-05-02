@@ -26,3 +26,8 @@ class BigQuery:
         )
     )
     return dataframe
+
+  def latest_metadata(self, metadata_table='inxt-analytics.metadata.load_history', table_name='stripe_extraction.charges'):
+    query = f"""SELECT * FROM `{metadata_table}` WHERE table_name like '{table_name}' ORDER BY timestamp DESC LIMIT 1"""
+    df = self.download_table(query)
+    return df.iloc[0]
