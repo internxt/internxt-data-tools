@@ -39,3 +39,9 @@ class BigQuery:
     job = self.store_dataframe(df,metadata_table)
     return job
 
+  def delete_table(self, table_name):
+    # table_name = 'your-project.your_dataset.your_table'
+
+    job = self.client.delete_table(table_name, not_found_ok=True)
+    return job
+

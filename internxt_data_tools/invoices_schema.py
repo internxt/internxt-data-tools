@@ -30,6 +30,7 @@ invoice_schema = [
   'lines_data_plan_metadata_planType',
   'lines_data_plan_metadata_recurrence',
   'lines_data_plan_product',
+  'lines_data_price_id',
   'lines_data_price_metadata_name',
   'lines_data_price_metadata_planType',
   'lines_data_price_metadata_recurrence',

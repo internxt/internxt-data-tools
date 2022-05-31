@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "internxt-data-tools"
-version = "0.0.6"
+version = "0.0.10"
 description = ""
 authors = ["Joan Mora <elcorreudejoanmora@gmail.com>"]
 

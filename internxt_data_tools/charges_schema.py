@@ -24,6 +24,8 @@ charges_schema = [
     'invoice_lines_data_plan_metadata_maxSpaceBytes',
     'invoice_lines_data_plan_metadata_name',
     'invoice_lines_data_plan_metadata_planType',
+    'invoice_lines_data_plan_metadata_recurrence',
+    'invoice_lines_data_price_metadata_recurrence',
     'invoice_lines_data_plan_product',
     'invoice_lines_data_price_id',
     'invoice_lines_data_price_metadata_maxSpaceBytes,',
@@ -51,11 +53,4 @@ charges_schema = [
     'refunded',
     'status',
     'created',
-
-    'metadata_lifetime_tier',
-    'metadata_maxSpaceBytes',
-    'metadata_name',
-    'metadata_planType',
-
-
 ]
